@@ -1,0 +1,39 @@
+body{
+    font-family: 'Turret Road', cursive;
+}
+.btn-success:hover{
+    background-color: darkgreen;
+}
+.btn-info:hover{
+    background-color:#5bc0de;
+    cursor:context-menu;
+}
+
+canvas{
+    border: solid;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes identifier {
+    0%{box-shadow: 1px 1px 50px red;}
+    12.5%{box-shadow: 1px 1px 50px orange;}
+    25%{box-shadow: 1px 1px 50px yellow;}
+    37.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);}
+    50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);}
+    62.5%{box-shadow: 1px 1px 50px blue;}
+    75%{box-shadow: 1px 1px 50px purple;}
+    87.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);}
+    100%{box-shadow: 1px 1px 50px red;}
+}
+@keyframes animation2 {
+    0%{background-color: red;}
+    12.5%{background-color: orange;}
+    25%{background-color: yellow;}
+    37.5%{background-color: rgb(0, 255, 0);}
+    50%{background-color: rgb(0, 255, 255);}
+    62.5%{background-color: blue;}
+    75%{background-color: purple;}
+    87.5%{background-color:  rgb(255, 0, 255);}
+    100%{background-color: red;}
+}
